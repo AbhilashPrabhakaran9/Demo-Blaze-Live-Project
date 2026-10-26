@@ -35,7 +35,7 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false, //headed mode
+    headless: true, //headed and headless mode
     timeout: 3000,
   },
 
